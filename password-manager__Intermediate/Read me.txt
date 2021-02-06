@@ -3,6 +3,7 @@ there are four main features.
 	1. Generating totally random and secure password
 	2. Saving the details(website, Username/email and password)
 	3. Copying the password generated to the clipboard
-	4. Saving your ownpassword instead of generating
-A data file is generated at which keeps the track of all the information
+	4. Searching the email and password by given website
+	5. Saving your ownpassword instead of generating
+A data json file is generated which keeps the track of all the information
 including website, email/username and password.
