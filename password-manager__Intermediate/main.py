@@ -2,7 +2,6 @@ import json
 from random import choice, randint, shuffle
 from tkinter import *
 from tkinter import messagebox
-
 import pyperclip
 
 YELLOW = "#f7f5dd"
