@@ -2,13 +2,14 @@ import requests
 from datetime import datetime, timezone
 import smtplib
 import time
+import config
 
-MY_LAT = 51.507351 # my latitude
-MY_LONG = -0.127758 # my longitude
+MY_LAT = config.lat # my latitude
+MY_LONG = config.long # my longitude
 
 # use your own email and password :p with lowering the security so that smtp may work properly
-MY_EMAIL = "********@*****.com"
-PASSWORD = "***************"
+MY_EMAIL = config.email
+PASSWORD = config.password
 
 #Your position is within +5 or -5 degrees of the ISS position.
 
