@@ -19,8 +19,6 @@ parameters = {
             'exclude': "current,minutely,daily,alerts"
 }
 
-
-
 response = requests.get(OWM_Endpoint, params=parameters)
 data = response.json()
 weather_slice = data['hourly'][:12]
