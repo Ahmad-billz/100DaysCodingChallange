@@ -57,4 +57,3 @@ if difference_percentage > 10:
             from_=config.f_number,
             to=config.number
         )
-
